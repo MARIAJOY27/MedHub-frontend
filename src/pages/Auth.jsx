@@ -13,14 +13,14 @@ function Auth() {
             <div className='w-100 d-flex justify-content-center align-items-center flex-column' style={{ height: '100vh' }}>
 
                 <div className='w-50 container'>
-                    <Link to={'/'} style={{ textDecoration: "none", color: 'orange' }}><h5><FontAwesomeIcon icon={faArrowLeft} /> Back to <FontAwesomeIcon icon={faHouse} /> </h5></Link>
+                    <Link to={'/'} style={{ textDecoration: "none", color: 'orange' }}><h5 style={{overflowY:"hidden"}}><FontAwesomeIcon icon={faArrowLeft} /> Back to <FontAwesomeIcon icon={faHouse} /> </h5></Link>
 
                     <div className='bg bg-success rounded mt-3' >
                         <Row>
 
                             <Col sm={12} md={12} >
-                                <h3 className='text-center mt-4'>Login To Your Account</h3>
-                                <h3 className='text-center mt-4'>Sign up To Your Account</h3>
+                                <h3 style={{overflowY:"hidden"}} className='text-center mt-4'>Login To Your Account</h3>
+                                <h3 style={{overflowY:"hidden"}} className='text-center mt-4'>Sign up To Your Account</h3>
 
                                 <Form className='mt-3 ms-5 w-75'>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">

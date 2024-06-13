@@ -5,7 +5,7 @@ function OrderHistory() {
     return (
         <>
             <HeaderAdmin />
-            <h4 className='text-center mt-4'>Order Summary</h4>
+            <h4 style={{overflowY:"hidden"}} className='text-center mt-4'>Order Summary</h4>
             <div className="row mx-5 mt-4">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
