@@ -11,7 +11,7 @@ function Home() {
       <div className='container-fluid w-100' style={{ backgroundColor: "#AAD9BB", height: "100vh" }}>
         <Row className='align-items-center'>
           <div className='text-typing text-center mt-5'>
-            <h1>Welcome to MedHub...</h1>
+            <h1 style={{overflowY:"hidden"}}>Welcome to MedHub...</h1>
             <p className='mt-3'>A system to ensure efficient
               tracking, updating, and purchasing of medicines. </p>
           </div>
